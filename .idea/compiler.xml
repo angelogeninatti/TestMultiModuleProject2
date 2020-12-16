@@ -8,7 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Servizio2" />
         <module name="Servizio1" />
+        <module name="Servizio3_Spring" />
+        <module name="altrospring" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Servizio4_Spring" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Servizio3_Spring" options="-parameters" />
+      <module name="Servizio4_Spring" options="-parameters" />
+      <module name="altrospring" options="-parameters" />
+    </option>
   </component>
 </project>

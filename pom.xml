@@ -11,6 +11,9 @@
     <modules>
         <module>Servizio1</module>
         <module>Servizio2</module>
+        <module>Servizio3_Spring</module> <!-- Aggiunto manualmente -->
+        <module>altrospring</module>
+        <!-- Gli artifact id devono essere tutti diversi -->
     </modules>
 
 
